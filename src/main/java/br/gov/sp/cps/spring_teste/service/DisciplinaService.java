@@ -8,4 +8,5 @@ public interface DisciplinaService {
     public Disciplina cadastrar(Disciplina disciplina);
     public List<Disciplina> listar();
     public Disciplina buscarPorId(Long id);
+    public void matricularAluno(Long disciplinaId, Long alunoId);
 }

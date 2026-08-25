@@ -37,7 +37,7 @@ public class CursoController {
     }
 
     @GetMapping("/{id}")
-    public Curso buscarPorid(@PathVariable("id") Long id) {
+    public Curso buscarPorId(@PathVariable("id") Long id) {
         return service.buscarPorId(id);
     }
 }
